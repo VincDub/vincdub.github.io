@@ -205,14 +205,14 @@ a:active { text-decoration: none;}
 .texte {
     font-family: 'Roboto', sans-serif;
     color: rgb(35,35,35);
-    font-size: 11pt;
+    font-size: 11px;
 }
 
 .entete {
     text-transform: uppercase;
     color: rgb(0,0,0);
     font-family: 'Share Tech Mono', sans-serif;
-    font-size: 20pt;
+    font-size: 20px;
 }
 
 .titre {
@@ -236,7 +236,7 @@ a:active { text-decoration: none;}
 }
 
 .res {
-    font-size: 14pt;
+    font-size: 14px;
     width: 90%;
     text-align: justify;
     margin-left: auto;
@@ -245,7 +245,7 @@ a:active { text-decoration: none;}
 
 
 #bouton_doc > p {
-    font-size: 14pt;
+    font-size: 14px;
     margin: 0px;
     text-align: center;
     font-weight: bold;
