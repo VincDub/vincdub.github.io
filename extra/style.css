@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono:400&display=swap');
+
+
+/* BASE */
+
+body {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 75px auto;
+    margin: 0px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#banniere {
+    grid-column: 1/3;
+    grid-row: 1;
+    background-color: rgb(30,30,30);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fond {
+    grid-column: 1/3;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(230,230,230);
+}
+
+
+a:link { text-decoration: none;}
+a:visited { text-decoration: none;}
+a:hover { text-decoration: none;}
+a:active { text-decoration: none;}
+
+#VD {
+    height: 60px;
+}
+
+.cliquable {
+    filter: invert(98%) sepia(2%) saturate(1736%) hue-rotate(258deg) brightness(119%) contrast(80%);
+}
+
+.cliquable:hover {
+    filter: invert(8%) sepia(85%) saturate(5897%) hue-rotate(358deg) brightness(105%) contrast(110%);
+    transition-duration: 0.05s;
+}
+
+/* CONTENU */
+
+#fond > div {
+    width: 90%;
+    border-top: 2px solid rgb(30,30,30);
+}
+
+#fond > div:hover > label {
+    color: rgb(120,0,0);
+    transition-duration: 0.1s;
+    font-weight: bold;
+}
+
+.CTN {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70px auto 300px;
+    grid-template-rows: 100px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.CTN > label {
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: rgb(30,30,30);
+    transform: rotate(45deg);
+    margin: 0px;
+}
+
+#clic1 {display:none;}
+#clic2 {display:none;}
+#clic3 {display:none;}
+#clic4 {display:none;}
+#clic5 {display:none;}
+
+
+.BTN:checked + label {
+    font-size: 90px;
+    transform: rotate(0deg);
+    transition-duration: 0.1s;
+}
+
+.BTN:checked + label ~ .titre {
+    color: rgb(120,0,0);
+    font-size: 28px;
+    transition-duration: 0.1s;
+}
+
+.BTN:checked + label ~ .aperçu {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 400px auto;
+    width: 100%;
+    height: 800px;
+}
+
+.aperçu {
+    position: relative;
+    grid-row: 2;
+    grid-column: 1/4;
+    display: none;
+    z-index: 2;
+    gap: 20px 20px;
+}
+
+.résumé {
+    grid-row: 1;
+    grid-column: 1;
+    background-color: rgb(220,220,220);
+    overflow-y: scroll;
+}
+
+.images {
+    grid-row: 2;
+    grid-column: 1;
+    background-color: rgb(210,210,210);
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow-y: scroll;
+}
+
+.images > * {
+    height: 89px;
+    margin : 5px;
+    border: 3px solid transparent;
+    background-color: white;
+}
+
+.images > *:hover {
+    /*transform: scale(1.2);*/
+    border: 3px solid rgb(120,0,0);
+    transition-duration: 0.1s;
+}
+
+.vue {
+    grid-row: 1/3;
+    grid-column: 2;
+    background-color: rgb(200,200,200);
+}
+
+.vue > img {
+    display: block;
+    height: 100%;
+    width: 80%;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    background-color: white;
+}
+
+.vue > iframe{
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    overflow : scroll;
+}
+
+.vue > video{
+    height: 100%;
+    width: 100%;
+    border: 0px;
+}
+
+#bouton_doc {
+    background-color: rgb(150,150,150);
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    clip-path: polygon(70% 0, 100% 20%, 100% 100%, 0 100%, 0 0);
+}
+
+
+/* TEXTE */
+
+.texte {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(35,35,35);
+    font-size: 11pt;
+}
+
+.entete {
+    text-transform: uppercase;
+    color: rgb(0,0,0);
+    font-family: 'Share Tech Mono', sans-serif;
+    font-size: 20pt;
+}
+
+.titre {
+    grid-row: 1;
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 95%;
+}
+
+.date {
+    grid-row: 1;
+    grid-column: 3;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-style: oblique;
+}
+
+.res {
+    font-size: 14pt;
+    width: 90%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#bouton_doc > p {
+    font-size: 14pt;
+    margin: 0px;
+    text-align: center;
+    font-weight: bold;
+
+}
