@@ -98,7 +98,7 @@ a:active { text-decoration: none;}
 #clic3 {display:none;}
 #clic4 {display:none;}
 #clic5 {display:none;}
-
+#clic6 {display:none;}
 
 .BTN:checked + label {
     font-size: 90px;

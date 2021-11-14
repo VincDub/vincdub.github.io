@@ -26,8 +26,35 @@
         <div style="height: 100px;border-top: none;"></div>
 
         <div class="CTN">
-            <input type="checkbox" id="clic1"  class="BTN" onclick="expand(this)"/>
-            <label for="clic1">&times;</label>
+            <input type="checkbox" id="clic6"  class="BTN" onclick="expand(this)"/>
+            <label for="clic6">&times;</label>
+            <p class="texte titre">Cartographie sémantique des projets d'architecture de fin d'études d'ArchiRes</p>
+            <p class="texte date">Nov. 2021</p>
+            <div class="aperçu">
+                <div class="résumé">
+                    <p class="texte res">
+                        <a href="https://github.com/VincDub/Analyse-Sujets-PFE">Projet développé en Python</a> permettant d'effectuer une classification non-supervisée (clusterisation) sur un ensemble de projets d'architecture de fin d'études présents sur le site ArchiRes, 
+                        sur la base de leurs résumés.<br>
+                        Il s'appuie sur la bibliothèque SpaCy pour la partie NLP (tokenization et analyse de fonction des mots),
+                        ainsi que Scikit-Learn pour la clustersation en elle-même (TFIDFVectorizer, Kmeans et PCA), puis Plotly afin de représenter les résultats de manière claire.
+                        <br>Un second outil de web scraping nommé <a href="https://github.com/VincDub/ArchiResParser">ArchiResParser</a>, basé sur le framework Scrapy, a préalablement servi
+                        à l'extraction des données des projets de fin d'études sur le site d'ArchiRes, dépourvu d'API pour le moment.
+                    </p>
+                </div>
+                <div class="images">
+                    <object src="assets/CLASSIFICATION_PFE_2021/carte_sémantique.html" onclick="zoom(this)" id="bouton_doc"><p class="texte">HTML</p></object>
+                    <img src="assets/CLASSIFICATION_PFE_2021/archires_extraction.png" onclick="zoom(this)" alt="">
+                    <img src="assets/CLASSIFICATION_PFE_2021/json_archires.png" onclick="zoom(this)" alt="">
+                </div>
+                <div class="vue">
+                    <iframe src="assets/CLASSIFICATION_PFE_2021/carte_sémantique.html" frameborder="0" allowfullscreen="true" allowtransparency="true"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="CTN">
+            <input type="checkbox" id="clic5"  class="BTN" onclick="expand(this)"/>
+            <label for="clic5">&times;</label>
             <p class="texte titre"> Développement d'un réseau de neurones capable d'évaluer le gisement brut potentiel de
                 matériaux d'un bâtiment existant (extrait du rapport de projet de fin d'études)</p>
             <p class="texte date">Janv. 2021 - Mars. 2021</p>
@@ -54,8 +81,8 @@
         </div>
 
         <div class="CTN">
-            <input type="checkbox" id="clic2"  class="BTN" onclick="expand(this)"/>
-            <label for="clic2">&times;</label>
+            <input type="checkbox" id="clic4"  class="BTN" onclick="expand(this)"/>
+            <label for="clic4">&times;</label>
             <p class="texte titre">EXPLOITER L’OPEN DATA AVEC PYTHON : Démonstration par la pratique des apports potentiels au sein de la conception architecturale</p>
             <p class="texte date">Oct. 2020 - Fév. 2021</p>
             <div class="aperçu">
@@ -114,8 +141,8 @@
         </div>
 
         <div class="CTN">
-            <input type="checkbox" id="clic4"  class="BTN" onclick="expand(this)"/>
-            <label for="clic4">&times;</label>
+            <input type="checkbox" id="clic2"  class="BTN" onclick="expand(this)"/>
+            <label for="clic2">&times;</label>
             <p class="texte titre">INTELLIGENCE MATÉRIELLE : DES MATÉRIAUX INTÉGRÉS À L'I.O.T.</p>
             <p class="texte date">Nov. 2019 - Janv. 2020</p>
             <div class="aperçu">
@@ -143,8 +170,8 @@
         </div>
 
         <div class="CTN">
-            <input type="checkbox" id="clic5"  class="BTN" onclick="expand(this)"/>
-            <label for="clic5">&times;</label>
+            <input type="checkbox" id="clic1"  class="BTN" onclick="expand(this)"/>
+            <label for="clic1">&times;</label>
             <p class="texte titre">RÉFLEXION SUR L’ENSEIGNEMENT DU PROCESSUS ET DE L’OUTIL BIM EN ÉCOLE D’ARCHITECTURE</p>
             <p class="texte date">Mars 2019 - Juin 2019</p>
             <div class="aperçu">

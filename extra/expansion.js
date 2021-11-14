@@ -13,4 +13,10 @@ function expand(ckbx) {
     ckbx.parentElement.style.paddingBottom = taille_bot;
     ckbx.parentElement.style.paddingTop = taille_top;
     ckbx.parentElement.style.gridTemplateRows = taille_rows;
+
+    //Actualise la source de l'iframe principale (empêche un bug d'affichage des graphiques interactifs)
+    var vue=ckbx.parentElement.children[4].children[2].children[0];
+    var src=vue.getAttribute("src");
+    vue.src = src;
+
 }
