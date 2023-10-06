@@ -1,0 +1,61 @@
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+ <channel>
+   <title>Recherche on Vincent DUBOIS</title>
+   <link>https://projects.vincdub.com/categories/recherche/</link>
+   <description>Recent content in Recherche on Vincent DUBOIS</description>
+   <generator>Hugo -- gohugo.io</generator>
+   <language>fr</language>
+   <copyright>Copyright &amp;copy; 2023 - Vincent DUBOIS</copyright>
+   <lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
+   
+       <atom:link href="https://projects.vincdub.com/categories/recherche/index.xml" rel="self" type="application/rss+xml" />
+   
+   
+     <item>
+       <title>Cartographie sémantique des projets de fin d&#39;études en architecture (ArchiRes)</title>
+       <link>https://projects.vincdub.com/projets/2021_2/</link>
+       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+       
+       <guid>https://projects.vincdub.com/projets/2021_2/</guid>
+       <description>&lt;p&gt;Visualisation d&amp;rsquo;un ensemble de projets de fin d&amp;rsquo;études d&amp;rsquo;écoles d&amp;rsquo;architecture présents sur le site ArchiRes, clusterisés sur la base de leurs résumés.&lt;/p&gt;&lt;h2 id=&#34;outils--bibliothèques&#34;&gt;Outils / Bibliothèques&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;SpaCy&lt;/li&gt;&lt;li&gt;Scikit-Learn&lt;/li&gt;&lt;li&gt;Plotly&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#34;https://github.com/VincDub/Analyse-Sujets-PFE&#34;&gt;Code source du projet&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+     </item>
+   
+     <item>
+       <title>Modèle prédictif de gisement de matériaux bruts pour les bâtiments voués à la démolition</title>
+       <link>https://projects.vincdub.com/projets/2021_1/</link>
+       <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+       
+       <guid>https://projects.vincdub.com/projets/2021_1/</guid>
+       <description>&lt;p&gt;Modèle développé dans le cadre de mon mémoire de master, consistant en un réseau de neurones multi-modal entraîné à partir de données ouvertes sur le bâti existant (BDTOPO, données APUR et données de la ville de Paris).&lt;/p&gt;&lt;p&gt;Le modèle détermine, pour la structure verticale ainsi que la couverture,les matériau constitutifs les plus probables et leur quantité.&lt;/p&gt;&lt;h2 id=&#34;outils--bibliothèques&#34;&gt;Outils / Bibliothèques&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Geopandas&lt;/li&gt;&lt;li&gt;Scikit-Learn&lt;/li&gt;&lt;li&gt;Autokeras&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#34;https://github.com/VincDub/OpenDataPython/blob/main/PFE_DEEP_LEARNING.ipynb&#34;&gt;Code source du modèle&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;img src=&#34;https://projects.vincdub.com/img/2021_1/agg.png#mid&#34; alt=&#34;test du modèle&#34;&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&#34;https://projects.vincdub.com/img/2021_1/train.png#mid&#34; alt=&#34;test du modèle&#34;&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&#34;https://projects.vincdub.com/img/2021_1/test_ilot.png#mid&#34; alt=&#34;test du modèle&#34;&gt;&lt;/p&gt;</description>
+     </item>
+   
+     <item>
+       <title>Exploiter l&#39;Open Data avec Python : Démonstration par la pratique des apports potentiels au sein de la conception architecturale</title>
+       <link>https://projects.vincdub.com/projets/2020_1/</link>
+       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+       
+       <guid>https://projects.vincdub.com/projets/2020_1/</guid>
+       <description>&lt;p&gt;Ce mémoire aborde les enjeux de l’appropriation d’un langage de programmation par lesarchitectes afin d’exploiter les données aujourd’hui disponibles sur les plateformes en Open Data, tel que des données concernant la morphologie des bâtiments existant, leurs caractéristiques énergétiques ou encore leurs matériaux.&lt;/p&gt;&lt;p&gt;Le but est ici de répondre à ces enjeux à travers une approche pratiqueconstituée de plusieurs scripts Python.&lt;/p&gt;&lt;p&gt;En quoi un langage comme Python est-il indispensable aujourd’hui pour exploiterles données en Open Data ? De quelle manière peut-on les intégrer dansl’environnement de travail de la conception architecturale ?Quel usage approfondi vis-à-vis de ces données est-ilalors possible de mettre en place grâce à la programmation ?&lt;/p&gt;&lt;h2 id=&#34;outils--bibliothèques&#34;&gt;Outils / Bibliothèques&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Pandas&lt;/li&gt;&lt;li&gt;Geopandas&lt;/li&gt;&lt;li&gt;Ezdxf&lt;/li&gt;&lt;li&gt;Rhino3dm&lt;/li&gt;&lt;li&gt;Autokeras&lt;/li&gt;&lt;li&gt;Plotly&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#34;https://github.com/VincDub/OpenDataPython&#34;&gt;Code source du mémoire&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+     </item>
+   
+     <item>
+       <title>Intelligence Matérielle : Des matériaux intégrés à L&#39;I.O.T.</title>
+       <link>https://projects.vincdub.com/projets/2019_2/</link>
+       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+       
+       <guid>https://projects.vincdub.com/projets/2019_2/</guid>
+       <description>&lt;p&gt;Ce mémoire croise les concepts de matériaux intelligents et de l’IOT.appliqués au domaine de la construction.&lt;/p&gt;&lt;p&gt;S’appuyant sur l&amp;rsquo;exemple du béton connecté (&lt;em&gt;Smart Concrete&lt;/em&gt;), il s’interroge sur ce que pourrait représenter un matériau de construction faisant partie de l&amp;rsquo;Internet des objets.&lt;/p&gt;&lt;p&gt;Quelle serait la nature des échanges d’information possibles ? Quels dispositifs sont mobilisés pour les permettre ? Quelles fonctions actuelles et futures seraient assurées par ces matériaux augmentés ? Quel en serait alors l’impact sur le secteur de la construction ?&lt;/p&gt;&lt;p&gt;&lt;img src=&#34;https://projects.vincdub.com/img/2019_2/slide_fonc.png#mid&#34; alt=&#34;Données récoltables&#34;&gt;&lt;/p&gt;</description>
+     </item>
+   
+     <item>
+       <title>Réflexion sur l’enseignement du processus et de l’outil BIM en école d’architecture</title>
+       <link>https://projects.vincdub.com/projets/2019_1/</link>
+       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+       
+       <guid>https://projects.vincdub.com/projets/2019_1/</guid>
+       <description>&lt;p&gt;Ce rapport pose la question de l’approche du BIM à mettre en place aujourd’hui en école d’architecture. En effet, cette méthode de travail centrée autour d’une maquette numérique permet à tous les acteurs intervenant sur le projet, de collaborer et d’échanger des données directement sur ce support, en réduisant ainsi les coûts et facilitant la communication autour du projet.&lt;/p&gt;&lt;p&gt;Or, il s’avère que les écoles d’architecture en France semblent aborder le BIMde manière trop timide et superficielle au sein du cursus. Face à ce déphasage,ce rapport engage une réflexion sur une nouvelle approche du BIM en école d’architecture.&lt;/p&gt;</description>
+     </item>
+   
+ </channel>
+</rss>

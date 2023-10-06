@@ -1,0 +1,222 @@
+<!doctype html>
+
+<html lang="fr">
+
+<head>
+  <title>Modèle prédictif de gisement de matériaux bruts pour les bâtiments voués à la démolition - Vincent DUBOIS</title>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Valoriser les données du bâtiment" />
+<meta name="author" content="Vincent DUBOIS" /><meta property="og:title" content="Modèle prédictif de gisement de matériaux bruts pour les bâtiments voués à la démolition" />
+<meta property="og:description" content="Modèle développé dans le cadre de mon mémoire de master, consistant en un réseau de neurones multi-modal entraîné à partir de données ouvertes sur le bâti existant (BDTOPO, données APUR et données de la ville de Paris)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://projects.vincdub.com/projets/2021_1/" /><meta property="og:image" content="https://projects.vincdub.com/img/2021_1/model.png" /><meta property="article:section" content="projets" />
+<meta property="article:published_time" content="2021-03-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-03-01T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://projects.vincdub.com/img/2021_1/model.png"/>
+
+<meta name="twitter:title" content="Modèle prédictif de gisement de matériaux bruts pour les bâtiments voués à la démolition"/>
+<meta name="twitter:description" content="Modèle développé dans le cadre de mon mémoire de master, consistant en un réseau de neurones multi-modal entraîné à partir de données ouvertes sur le bâti existant (BDTOPO, données APUR et données de la ville de Paris)."/>
+
+<meta name="generator" content="Hugo 0.119.0">
+    
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://projects.vincdub.com/fontawesome/css/all.min.css" />
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  
+  
+  <link rel="stylesheet" type="text/css" href="https://projects.vincdub.com/css/styles.css" />
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      
+<div class="site_logo featured_image">
+    <a href="https://projects.vincdub.com/">
+        <img class="" src="https://projects.vincdub.com/img/logo.svg#float">
+    </a>
+</div>
+
+      <h1>
+        <a href="https://projects.vincdub.com/">Vincent DUBOIS</a>
+      </h1>
+
+      <ul id="social-media">
+             <li>
+               <a href="https://github.com/VincDub/vincdub.github.io" title="GitHub">
+               <i class="fab fa-github fa-lg"></i>
+               </a>
+             </li>
+             <li>
+               <a href="https://linkedin.com/in/vincent-dubois-417b4017a" title="LinkedIn">
+               <i class="fab fa-linkedin fa-lg"></i>
+               </a>
+             </li>
+      </ul>
+      
+      <p><em>Bâtiment &amp; Data Science</em></p>
+      
+    </header>
+
+    
+<nav>
+    <ul>
+        
+        <li>
+            <a class="" href="https://projects.vincdub.com/categories">
+                <i class="fa-li fa  fa-lg"></i><span>Catégories</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="https://projects.vincdub.com/tags">
+                <i class="fa-li fa  fa-lg"></i><span>Tags</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="active" href="https://projects.vincdub.com/projets/">
+                <i class="fa-li fa  fa-lg"></i><span>Projets</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>Modèle prédictif de gisement de matériaux bruts pour les bâtiments voués à la démolition</h1>
+
+    
+      <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2021-03-01T00:00:00Z">Mar, 2021</time>
+        </li>
+        
+        
+        <li>
+            Catégories :
+            <em>
+                
+                    
+                    <a href="https://projects.vincdub.com/categories/architecture">Architecture</a>
+                
+                    , 
+                    <a href="https://projects.vincdub.com/categories/data">Data</a>
+                
+            </em>
+        </li>
+        
+
+        
+        <li>
+            <em>
+                
+                    
+                    <a href="https://projects.vincdub.com/tags/ia">#IA</a>
+                
+                    , 
+                    <a href="https://projects.vincdub.com/tags/open-data">#Open Data</a>
+                
+                    , 
+                    <a href="https://projects.vincdub.com/tags/mat%C3%A9riaux">#Matériaux</a>
+                
+            </em>
+        </li>
+        
+
+        
+    </ul>
+</aside>
+
+    
+
+    
+      
+<div class="featured_image">
+    <a href="https://projects.vincdub.com/projets/2021_1/" title="Modèle prédictif de gisement de matériaux bruts pour les bâtiments voués à la démolition">
+        <img src="https://projects.vincdub.com/img/2021_1/model.png#mid">
+    </a>
+</div>
+
+
+    
+
+    <p>Modèle développé dans le cadre de mon mémoire de master, consistant en un réseau de neurones multi-modal entraîné à partir de données ouvertes sur le bâti existant (BDTOPO, données APUR et données de la ville de Paris).</p>
+<p>Le modèle détermine, pour la structure verticale ainsi que la couverture,
+les matériau constitutifs les plus probables et leur quantité.</p>
+<h2 id="outils--bibliothèques">Outils / Bibliothèques</h2>
+<ul>
+<li>Geopandas</li>
+<li>Scikit-Learn</li>
+<li>Autokeras</li>
+</ul>
+<h2 id="sources">Sources</h2>
+<ul>
+<li><a href="https://github.com/VincDub/OpenDataPython/blob/main/PFE_DEEP_LEARNING.ipynb">Code source du modèle</a></li>
+</ul>
+<p><img src="https://projects.vincdub.com/img/2021_1/agg.png#mid" alt="test du modèle"></p>
+<p><img src="https://projects.vincdub.com/img/2021_1/train.png#mid" alt="test du modèle"></p>
+<p><img src="https://projects.vincdub.com/img/2021_1/test_ilot.png#mid" alt="test du modèle"></p>
+
+
+    
+
+</article>
+
+
+<section class="post-nav">
+    <ul>
+        <li>
+        
+            <a href="https://projects.vincdub.com/projets/2020_1/"><i class="fa fa-chevron-circle-left"></i> Exploiter l&#39;Open Data avec Python : Démonstration par la pratique des apports potentiels au sein de la conception architecturale</a>
+        
+        </li>
+        <li>
+        
+            <a href="https://projects.vincdub.com/projets/2021_2/">Cartographie sémantique des projets de fin d&#39;études en architecture (ArchiRes) <i class="fa fa-chevron-circle-right"></i> </a>
+        
+        </li>
+    </ul>
+</section>
+  
+    
+    
+  
+
+
+
+
+
+</main>
+    <footer>
+        <ul>
+            <li>
+                <h6>Copyright © 2023 - Vincent DUBOIS | 
+                    Généré avec <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+                    <a href="https://projects.vincdub.com/index.xml">S&#39;abonner </a></h6>
+            </li>
+            
+            
+        </ul>
+    </footer>
+</div>
+<script src="https://projects.vincdub.com/js/scripts.js"></script>
+
+
+</body>
+
+</html>
+
