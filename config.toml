@@ -47,11 +47,13 @@ defaultContentLanguageInSubdir = false
     #devto = "username"
 
 [params]
+    use_custom_logo = true
     #tagline = "Bâtiment & Data Science"
-    description = "Valoriser les données du bâtiment"
-    site_logo = "/img/logo.svg#float"
+    #description = ""
+    #site_logo = ""
+    #site_logo_classes = ""
     #images = [""] #This is used for opengraph/twitter cards.
-    #customCSS = []  #Optional Customised CSS
+    #customCSS = [""]  #Optional Customised CSS
     #favicon = ""
     #utterancesRepo = "username/repository"
     #utterancesIssueTerm = "pathname"

@@ -460,3 +460,14 @@ ul.pagination {
 ul.pagination li {
   padding: 0 1em;
 }
+
+/* Paramètres du logo */
+.custom_logo {
+  float: left;
+  margin: 1em 1em 1em -3em;
+}
+
+.custom_logo polygon {
+  transform: scale(2.2);
+  transform-origin: top left;
+}
