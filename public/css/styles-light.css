@@ -464,7 +464,7 @@ ul.pagination li {
 /* Paramètres du logo */
 .custom_logo {
   float: left;
-  margin: 1em 1em 1em -3em;
+  margin: 1em 1em 0 0;
 }
 
 .custom_logo polygon {
