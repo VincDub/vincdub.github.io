@@ -1,7 +1,7 @@
 baseURL = 'https://projects.vincdub.com/'
 languageCode = 'fr-FR'
 title = 'Vincent DUBOIS'
-copyright = "Copyright &copy; 2023 - Vincent DUBOIS"
+copyright = "Copyright &copy; 2025- Vincent DUBOIS"
 canonifyurls = true
 theme = "hugo-kiera"
 
