@@ -7,10 +7,19 @@
    <generator>Hugo -- gohugo.io</generator>
    <language>fr</language>
    <copyright>Copyright &amp;copy; 2023 - Vincent DUBOIS</copyright>
-   <lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate>
+   <lastBuildDate>Mon, 08 Dec 2025 00:00:00 +0000</lastBuildDate>
    
        <atom:link href="https://projects.vincdub.com/index.xml" rel="self" type="application/rss+xml" />
    
+   
+     <item>
+       <title>Thèse CIFRE : Prédiction de sinistralité dans le bâtiment</title>
+       <link>https://projects.vincdub.com/projets/2025_1/</link>
+       <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+       
+       <guid>https://projects.vincdub.com/projets/2025_1/</guid>
+       <description>&lt;p&gt;&lt;em&gt;Titre complet : Prédiction de sinistralité dans le bâtiment - diminuer les risques de désordres par l&amp;rsquo;exploitation de données de sinistralité agrégées avec des données caractérisant les bâtiments et leur environnement grâce à l&amp;rsquo;intelligence artificielle&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Face à la hausse des coûts des sinistres dans le bâtiment, cette recherche étudie l’usage de l’intelligence artificielle (IA) pour prédire les désordres décennaux en construction neuve.&lt;/p&gt;&lt;p&gt;L’objectif est de créer un prototype d’outil prédictif capable d’identifier les points de vigilance d’un ouvrage futur en s’appuyant sur l’analyse de bâtiments sinistrés et de leurs caractéristiques. La méthodologie repose sur l’exploitation de la base Sycodés de l’Agence Qualité Construction (AQC), regroupant plus de 740 000 dommages couverts par l’assurance Dommages Ouvrage depuis 1995, pour des coûts de réparation de 1 800 à 160 000 €. Ces données ont été enrichies par d’autres bases nationales fournissant des informations sur la typologie, les techniques constructives, le climat ou les risques naturels.&lt;/p&gt;&lt;p&gt;L’étude cible le secteur résidentiel, individuel et collectif. Plusieurs modèles prédictifs d’IA ont été développés à trois niveaux de détail afin d’estimer la probabilité de désordre sur différents éléments du bâti selon les caractéristiques du bâtiment et de son environnement. Une double évaluation a été menée : mesures de performance et calibration des probabilités, puis tests auprès de professionnels via un prototype d’application de prévention.&lt;/p&gt;&lt;p&gt;Les résultats montrent que l’IA peut repérer certaines zones de risque dès la conception ou l’exécution. L’ajout de données complémentaires comme l’exécution (sous-traitance, durée, qualification des entreprises…) pourrait améliorer la précision des modèles.&lt;/p&gt;&lt;p&gt;Cette étude ouvre plusieurs perspectives : outil d’aide à la conception pour la maîtrise d’œuvre, support de dialogue avec les assureurs, formation ou alerte pour les entreprises. Toutefois, l’IA reste un outil d’aide à la décision qui ne remplace pas l’expertise humaine dans l’évaluation des risques. Elle peut néanmoins enrichir le dialogue entre acteurs du bâtiment et constitue une avancée prometteuse pour la prévention des sinistres.&lt;/p&gt;&lt;h2 id=&#34;outils--bibliothèques&#34;&gt;Outils / Bibliothèques&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Python&lt;/li&gt;&lt;li&gt;ML Flow&lt;/li&gt;&lt;li&gt;DBT&lt;/li&gt;&lt;li&gt;Google Cloud Platform&lt;ul&gt;&lt;li&gt;Google Cloud Storage&lt;/li&gt;&lt;li&gt;BigQuery&lt;/li&gt;&lt;li&gt;Cloud Functions&lt;/li&gt;&lt;li&gt;Cloud Workflows&lt;/li&gt;&lt;li&gt;Cloud Run&lt;/li&gt;&lt;li&gt;App Engine&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#34;https://theses.fr/s361605&#34;&gt;Page Thèses.fr&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+     </item>
    
      <item>
        <title>Cartographie sémantique des projets de fin d&#39;études en architecture (ArchiRes)</title>
